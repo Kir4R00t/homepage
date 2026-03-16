@@ -4,10 +4,15 @@
 
 - Developer:
     - Github:
-        - icon: si-github
-          href: https://github.com/Kir4R00t
+        - abbr: GH
+          href: https://github.com/
 
-- Contact:
-    - LinkedIn:
-        - icon: si-linkedin
-          href: https://www.linkedin.com/in/przemys%C5%82aw-sadowski-39266b297/
+- Social:
+    - Reddit:
+        - abbr: RE
+          href: https://reddit.com/
+
+- Entertainment:
+    - YouTube:
+        - abbr: YT
+          href: https://youtube.com/
