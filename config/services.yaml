@@ -21,7 +21,7 @@
         server: my-docker
         container: docmost-docmost-1
     - Mealie:
-        icon: si-Mealie
+        icon: https://avatars.githubusercontent.com/u/92342333?s=48&v=4
         href: https://mealie.kirahosting.fun
         description: Recipe management app
         server: my-docker
