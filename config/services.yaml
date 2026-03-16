@@ -1,0 +1,49 @@
+- Infrastructure:
+    - Nginx Proxy Manager:
+        icon: nginx-proxy-manager.png
+        href: https://npm.kirahosting.fun
+        description: Reverse proxy and SSL
+        server: my-docker
+        container: reverseproxymanager-app-1
+
+    - Portainer:
+        icon: portainer.png
+        href: https://portainer.kirahosting.fun
+        description: Docker management
+        server: my-docker
+        container: portainer
+
+- Productivity:
+    - Docmost:
+        icon: docmost.png
+        href: https://docmost.kirahosting.fun
+        description: Notes and docs
+        server: my-docker
+        container: docmost-docmost-1
+
+    - Homepage:
+        icon: homepage.png
+        href: https://homepage.kirahosting.fun
+        description: Dashboard
+        server: my-docker
+        container: homepage
+
+- Bots:
+    - Discord Bot 1:
+        icon: discord.png
+        description: Main Discord bot
+        server: my-docker
+        container: discord-bot-app-1
+
+    - Discord Bot 2:
+        icon: discord.png
+        description: Farmer bot
+        server: my-docker
+        container: farmerbot-farmerbot-1
+
+- Utilities:
+    - Calendar Scraper:
+        icon: si-googlecalendar
+        description: Publishes shared calendar file
+        server: my-docker
+        container: outlookcalendarscraper-scraper
