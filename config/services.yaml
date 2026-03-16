@@ -8,7 +8,7 @@
 
     - Portainer:
         icon: portainer.png
-        href: https://portainer.kirahosting.fun
+        href: https://www.portainer.io/
         description: Docker management
         server: my-docker
         container: portainer
@@ -23,27 +23,30 @@
 
     - Homepage:
         icon: homepage.png
-        href: https://homepage.kirahosting.fun
+        href: https://gethomepage.dev/
         description: Dashboard
         server: my-docker
         container: homepage
 
 - Bots:
-    - Discord Bot 1:
+    - FarmerBot:
         icon: discord.png
-        description: Main Discord bot
-        server: my-docker
-        container: discord-bot-app-1
-
-    - Discord Bot 2:
-        icon: discord.png
-        description: Farmer bot
+        href: https://github.com/Kir4R00t/FarmerBot
+        description: Discord bot
         server: my-docker
         container: farmerbot-farmerbot-1
 
+    - Discord Bot:
+        icon: discord.png
+        href: https://github.com/UnderscoreLodii/Discord-bot
+        description: Discord bot
+        server: my-docker
+        container: discord-bot-app-1
+        
 - Utilities:
     - Calendar Scraper:
         icon: si-googlecalendar
+        href: https://github.com/Kir4R00t/OutlookCalendarScraper
         description: Publishes shared calendar file
         server: my-docker
         container: outlookcalendarscraper-scraper
