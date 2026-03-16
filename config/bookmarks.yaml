@@ -1,18 +1,9 @@
----
-# For configuration options and examples, please see:
-# https://gethomepage.dev/configs/bookmarks
-
 - Developer:
     - Github:
-        - abbr: GH
-          href: https://github.com/
+        - icon: si-github
+          href: https://github.com/Kir4R00t
 
 - Social:
-    - Reddit:
-        - abbr: RE
-          href: https://reddit.com/
-
-- Entertainment:
-    - YouTube:
-        - abbr: YT
-          href: https://youtube.com/
+    - Linkedin:
+        - icon: si-linkedin
+          href: https://www.linkedin.com/in/przemys%C5%82aw-sadowski-39266b297/
