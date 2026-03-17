@@ -1,3 +1,11 @@
+- Portfolio:
+    - My Website:
+        icon: https://cdn-icons-png.flaticon.com/512/5969/5969113.png
+        href: https://kirahosting.fun
+        description: My personal website :)
+        server: my-docker
+        container: caddy
+
 - Infrastructure:
     - Nginx Proxy Manager:
         icon: nginx-proxy-manager.png
