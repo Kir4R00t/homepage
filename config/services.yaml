@@ -4,7 +4,7 @@
         href: https://kirahosting.fun
         description: My personal website :)
         server: my-docker
-        container: caddy
+        container: kirar00t-site
 
 - Infrastructure:
     - Nginx Proxy Manager:
