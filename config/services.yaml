@@ -48,7 +48,7 @@
         href: https://github.com/Kir4R00t/OutlookCalendarScraper
         description: Publishes shared calendar file
         server: my-docker
-        container: outlookcalendarscraper-scraper
+        container: outlook_calendar_scraper
     - Homepage:
         icon: homepage.png
         href: https://gethomepage.dev/
