@@ -4,7 +4,7 @@
         href: https://npm.kirahosting.fun
         description: Reverse proxy and SSL
         server: my-docker
-        container: reverseproxymanager-app-1
+        container: nginx-proxy-manager
 
     - Portainer:
         icon: portainer.png
@@ -20,12 +20,6 @@
         description: Notes and docs
         server: my-docker
         container: docmost-docmost-1
-    - Mealie:
-        icon: https://avatars.githubusercontent.com/u/92342333?s=48&v=4
-        href: https://mealie.kirahosting.fun
-        description: Recipe management app
-        server: my-docker
-        container: mealie
 
 - Discord Bots:
     - FarmerBot:
@@ -43,12 +37,6 @@
         container: discord-bot-app-1
         
 - Utilities:
-    - Calendar Scraper:
-        icon: si-googlecalendar
-        href: https://github.com/Kir4R00t/OutlookCalendarScraper
-        description: Publishes shared calendar file
-        server: my-docker
-        container: outlook_calendar_scraper
     - Homepage:
         icon: homepage.png
         href: https://gethomepage.dev/
