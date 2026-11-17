@@ -15,7 +15,7 @@
 
     - Nifi:
         icon: https://cdn.simpleicons.org/apachenifi/728E9B
-        href: nifi.kirahosting.dev
+        href: https://nifi.kirahosting.dev
         description: Nifi instance
         server: my-docker
         container: nifi
