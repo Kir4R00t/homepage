@@ -1,22 +1,29 @@
 - Infrastructure:
     - Nginx Proxy Manager:
         icon: nginx-proxy-manager.png
-        href: https://npm.kirahosting.fun
+        href: https://npm.kirahosting.dev
         description: Reverse proxy and SSL
         server: my-docker
         container: nginx-proxy-manager
 
     - Portainer:
         icon: portainer.png
-        href: https://portainer.kirahosting.fun/
+        href: https://portainer.kirahosting.dev/
         description: Docker management
         server: my-docker
         container: portainer
 
+    - Nifi:
+        icon: https://cdn.simpleicons.org/apachenifi/728E9B
+        href: nifi.kirahosting.dev
+        description: Nifi instance
+        server: my-docker
+        container: nifi
+
 - Productivity:
     - Docmost:
         icon: docmost.png
-        href: https://docmost.kirahosting.fun
+        href: https://docmost.kirahosting.dev/
         description: Notes and docs
         server: my-docker
         container: docmost-docmost-1
@@ -25,7 +32,7 @@
     - FarmerBot:
         icon: discord.png
         href: https://github.com/Kir4R00t/FarmerBot
-        description: Discord bot
+        description: The Farmer Bot
         server: my-docker
         container: farmerbot-farmerbot-1
 

@@ -8,7 +8,7 @@ services:
       - ./config:/app/config
       - /var/run/docker.sock:/var/run/docker.sock:ro
     environment:
-      HOMEPAGE_ALLOWED_HOSTS: homepage.kirahosting.fun,localhost:3001,57.128.224.112:3001
+      HOMEPAGE_ALLOWED_HOSTS: homepage.kirahosting.dev,localhost:3001,57.128.224.112:3001
 
 networks:
   default:
